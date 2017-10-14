@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#E0FB82"
+    android:id="@id/scrollView">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:transitionGroup="true">
+
+        <GridLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/header"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_black_24dp"
+                android:id="@+id/homeImageButton"
+                android:layout_gravity="center"
+                android:background="#FFFFFFFF"
+                android:layout_row="0"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quiz"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:fontFamily="serif"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:id="@+id/textView2" />
+
+            <ImageButton
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:id="@+id/speechButton" />
+
+
+
+
+        </GridLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/warfarin"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:id="@+id/showButton"
+            android:layout_marginBottom="0dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/textOutput"
+            android:layout_marginBottom="0.0dp"
+            android:scrollbars="vertical"
+            android:layout_below="@id/imageView"
+            android:gravity="bottom"
+            android:textSize="26sp"
+            android:textColor="#FF000000"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_group"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@+id/textOutput">
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="26sp"
+                android:textColor="#FF000000"
+                android:id="@+id/radioButton1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="26sp"
+                android:textColor="#FF000000"
+                android:id="@+id/radioButton2" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#FF000000"
+            android:layout_below="@id/answer_group"
+            android:text=""
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:id="@+id/answerText" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Answer"
+                android:id="@+id/answerButton"
+                android:layout_gravity="left"
+                android:background="@drawable/buttons"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next Question"
+                android:id="@+id/nextQuestionButton"
+                android:layout_gravity="right"
+                android:background="@drawable/buttons"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+

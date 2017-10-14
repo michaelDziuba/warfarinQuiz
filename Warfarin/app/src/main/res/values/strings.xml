@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Warfarin Quiz</string>
+    <string name="app_subTitle">Warfarin Medication</string>
+    <string name="disclaimer">
+    This app uses simple English to help you learn.  It isn\'t medical advice.   Please ask your doctor for such advice.
+</string>
+</resources>

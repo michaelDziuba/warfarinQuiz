@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions1">
+        <item>What is another name for Warfarin?</item>
+        <item>Why do doctors prescribe Warfarin?</item>
+        <item>How does Warfarin work?</item>
+        <item>Generic or brand-name.  Which Warfarin is better to take?</item>
+        <item>Why must you make sure your dose of Warfarin is right?</item>
+        <item>Why do you need to test your blood at the lab so often?</item>
+        <item>What is the name of your blood test for Warfarin?</item>
+        <item>Why does the lab report your result as INR?</item>
+        <item>Why do Warfarin tablets have more than one color?</item>
+        <item>What should you do, if you miss or forget to take your dose of Warfarin?</item>
+        <item>What bad side effect can Warfarin have?</item>
+        <item>What is a sign of bleeding?</item>
+        <item>When to call an emergency number for help?</item>
+        <item>How can you decrease your risk of bleeding?</item>
+        <item>For women: What to do if you become pregnant?</item>
+        <item>Whom to tell that you take Warfarin?</item>
+        <item>Do you need to tell your doctor, before you go away on vacation?</item>
+        <item>Do you need to tell your doctor about any vitamins or herbs you take?</item>
+        <item>Can alcohol make you bleed too much?</item>
+        <item>What foods can get in the way of Warfarin?</item>
+        <item>Is it okay to eat Grapefruit?</item>
+        <item>How can wearing a medical alert tag help you?</item>
+    </string-array>
+
+    <string-array name="questions2">
+        <item>Coumadin</item>
+        <item>Aspirin</item>
+
+        <item>To stop all blood clots</item>
+        <item>To stop only harmful blood clots</item>
+
+        <item>Warfarin destroys blood clots after they form.</item>
+        <item>Warfarin slows down the making of blood clots.</item>
+
+        <item>Brand-name Warfarin is better</item>
+        <item>They are the same</item>
+
+        <item>Too much Warfarin can make you bleed too much</item>
+        <item>Warfarin is expensive</item>
+
+        <item>How much Warfarin you need can change over time.</item>
+        <item>Your doctor doesn\'t trust the lab.  She needs to make sure your result is right.</item>
+
+        <item>PT</item>
+        <item>APTT</item>
+
+        <item>INR is a way to make your PT test result standard</item>
+        <item>INR is another test for Warfarin</item>
+
+        <item>Tablets look better with many colors</item>
+        <item>The tablet color gives you a clue for how much Warfarin it has</item>
+
+        <item>Take more Warfarin next time</item>
+        <item>Call your doctor for advice</item>
+
+        <item>Warfarin makes you more prone to bleed</item>
+        <item>It doesn\'t have any bad side effects</item>
+
+        <item>A usual headache</item>
+        <item>A headache worse than usual</item>
+
+        <item>When you fall or injure your head</item>
+        <item>When you have a usual headache</item>
+
+        <item>Take care with knives and scissors</item>
+        <item>Don\'t shave</item>
+
+        <item>No need to do anything</item>
+        <item>Call your doctor right away</item>
+
+        <item>Your neighbors</item>
+        <item>Your dentist</item>
+
+        <item>There is no need to tell the doctor</item>
+        <item>You need to tell the doctor, before you go away</item>
+
+        <item>There is no need to tell the doctor</item>
+        <item>You need to tell your doctor about any vitamins or herbs you take</item>
+
+        <item>No.  Drinking alcohol cannot make you bleed too much</item>
+        <item>Yes.  Drinking alcohol can make you bleed too much</item>
+
+        <item>All foods are okay to eat</item>
+        <item>Green salad can get in the way of Warfarin</item>
+
+        <item>Yes. Grapefruit is okay to eat</item>
+        <item> No. Grapefruit can get in the way of Warfarin</item>
+
+        <item>If you are too ill to speak, then your alert tag can tell people about your health</item>
+        <item>A medical alert tag can\'t help you</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="answers">
+
+        <item>Coumadin and Jantoven are other names for Warfarin.  This is only in USA.  Please take note that Warfarin has many other names in other countries.  Make sure you know what drug to buy, before you travel.</item>
+        <item>Doctors use Warfarin to stop only harmful blood clots.
+Normal blood clots stop bleeding after an injury.  Harmful blood clots can block the flow of blood in the heart and in the brain.  This leads to a heart attack or a stroke.  Harmful clots can also form in the lungs.   And clots can stop the flow of blood deep inside legs or other parts of the body.</item>
+
+        <item>Warfarin slows down the making of blood clots.
+Many proteins in the blood work together to make clots.  Your body needs vitamin K to make some of these proteins.  Warfarin slows down the making of such proteins.  Blood takes more time to clot, when it has less of these proteins.</item>
+
+        <item>Brand-name Warfarin is better for helping companies make new drugs.   But generic Warfarin is cheaper.  It can help you save some money.  They are both made to the same standard from the government.  They work the same way.  And they are equally effective.</item>
+
+        <item>Taking Warfarin is a balancing act.  You need some clots to stop bleeding after an injury.   But you don\'t want your blood to clot inside your veins.  You can have too much clotting.  And you can have too little clotting.  Both are bad.  You need  just the right amount of clotting.  That\'s why you need to take just the right amount of Warfarin.</item>
+
+        <item>How much Warfarin you need can change over time.  Your doctor needs your test results to know if you need more Warfarin or less.</item>
+        <item>The test for your blood is called PT.  It measures how long your blood takes to clot.</item>
+        <item>INR is a way to make your PT test result standard.  Your doctor can send you to different labs and still get the same result, when the lab reports it as INR.</item>
+        <item>The tablet color gives you a clue for how much Warfarin it has. Same color means the tablet has the same amount of drug.  A different color means the tablet has either more or less of the drug. Color blindness can make different colors look the same.  If you have color blindness, then this clue might not work for you.</item>
+        <item>Call your doctor for advice.  You must not take more Warfarin to make up for the dose you missed.  Too much or too little Warfarin can injure you.    Only your doctor can change how much of the drug you take. </item>
+        <item>Warfarin makes you more prone to bleed.  You can bleed in any part of your body.  Bleeding inside your head and the gut can injure you the most.  You should tell your doctor about all signs of bleeding and bruising.  You should also tell your doctor if you fall or get hurt in some way.</item>
+        <item>An unusual headache can be a sign of bleeding in the head.  A headache worse than usual can also be a sign of such bleeding.  Your gums in the mouth can bleed.  You can have blood in your urine.   Bloody or dark stool is also a sign of bleeding.  Bruising under the skin is a sign of bleeding.  You can have blood come from your nose.  And you can have blood in your vomit.</item>
+        <item>You should call 911 or your doctor immediately, if you have:\n
+&#9679;Severe or unusual headache\n
+&#9679;Confusion, weakness, or numbness\n
+&#9679;Coughing up large amounts of bright red blood\n
+&#9679;Vomiting blood\n
+&#9679;Bleeding that will not stop\n
+&#9679;Bright red blood in stool\n
+&#9679;Fall, or injury to the head</item>
+        <item>&#9679;Take care when using sharp objects, such as knives and scissors.\n
+&#9679;Use a soft-bristle toothbrush.\n
+&#9679;Floss with waxed floss rather than unwaxed floss.\n
+&#9679;Shave with an electric razor rather than a blade.\n
+&#9679;Avoid actions that have a risk of falling or injury (e.g., contact sports).\n</item>
+        <item>You need to tell your doctor right away, if you become pregnant.
+It\'s not good to take Warfarin, when you are pregnant. </item>
+        <item>Tell your dentist.  Tell your surgeon.  Tell any one who does a medical procedure on you.</item>
+        <item>You need to tell your doctor, before you go away for any reason.  Your doctor can advise you how to do it safely.  You need to carry your Warfarin tablets on you, when you travel.  Don\'t put them into luggage that can be lost or delayed.</item>
+    <item>You need to tell your doctor about any other drugs, vitamins or herbs you take.  They can stop Warfarin from doing its job.  Vitamin K is the one to watch for.  It can be a part of your multi-vitamin tablet.  It can stop Warfarin from doing its job. Other drugs and herbs can make Warfarin stronger or weaker.  Both are bad.  It can lead to harmful bleeding or too much clotting.  One example is Advil.  It makes Warfarin stronger.</item>
+    <item>Yes, drinking alcohol can make you bleed too much.  Alcohol can make you bleed more, even when your INR result stays normal.  It gets in the way of some blood cells that help clots stop bleeding.  This is risky for you.  Because your lab result doesn\'t tell your doctor that anything is wrong.  Ask your doctor how much alcohol is safe for you to drink.</item>
+    <item>Green salad can get in the way of Warfarin.  Some oils and many green and leafy vegetables have a lot of vitamin K.  You need some vitamin K.  But too much vitamin K can stop Warfarin from doing its job.  Ask your doctor for advice, before you change your diet.</item>
+    <item>No. Grapefruit can get in the way of Warfarin.  It can stop your body from digesting Warfarin.  It can make you have too much Warfarin in your blood.  Don\'t eat a lot of grapefruit or drink its juice.</item>
+    <item>If you are too ill to speak, then your alert tag can tell people about your health.  Your alert tag should have a list of your illnesses. It should have a list of the drugs you take.   And it should have an emergency number to phone.</item>
+    </string-array>
+
+
+
+    <string-array name="answers_speech">
+        <item>What are some other names for Warfarin?:  Coumadin and Jantoven are other names for Warfarin.:  This is only in USA.:  Please take note that Warfarin has many other names in other countries.:  Make sure you know what drug to buy, before you travel.:</item>
+        <item>Why do doctors prescribe Warfarin?:  Doctors use Warfarin to stop only harmful blood clots.:
+Normal blood clots stop bleeding after an injury.:  Harmful blood clots can block the flow of blood in the heart and in the brain.:  This leads to a heart attack or a stroke.:  Harmful clots can also form in the lungs.:   And clots can stop the flow of blood deep inside legs or other parts of the body.:</item>
+
+<item>How does Warfarin work?:  Warfarin slows down the making of blood clots.:
+Many proteins in the blood work together to make clots.:  Your body needs vitamin K to make some of these proteins.:  Warfarin slows down the making of such proteins.:  Blood takes more time to clot, when it has less of these proteins.:</item>
+
+        <item>Generic or brand-name.:  Which Warfarin is better to take?:  Brand-name Warfarin is better for helping companies make new drugs.:   But generic Warfarin is cheaper.:  It can help you save some money.:  They are both made to the same standard from the government.:  They work the same way.:  And they are equally effective.:</item>
+
+        <item>Why must you make sure your dose of Warfarin is right?:  Taking Warfarin is a balancing act.:  You need some clots to stop bleeding after an injury.:   But you don\'t want your blood to clot inside your veins.:  You can have too much clotting.:  And you can have too little clotting.:  Both are bad.:  You need  just the right amount of clotting.:  That\'s why you need to take just the right amount of Warfarin.:</item>
+
+        <item>Why do you need to test your blood at the lab so often?:  How much Warfarin you need can change over time.:  Your doctor needs your test results to know if you need more Warfarin or less.:</item>
+        <item>What is the name of your blood test for Warfarin?:  The test for your blood is called PT.:  It measures how long your blood takes to clot.:</item>
+        <item>Why does the lab report your result as INR?:  INR is a way to make your PT test result standard.:  Your doctor can send you to different labs and still get the same result, when the lab reports it as INR.:</item>
+        <item>Why do Warfarin tablets have more than one color?:  The tablet color gives you a clue for how much Warfarin it has.: Same color means the tablet has the same amount of drug.:  A different color means the tablet has either more or less of the drug.: Color blindness can make different colors look the same.:  If you have color blindness, then this clue might not work for you.:</item>
+        <item>What should you do, if you miss or forget to take your dose of Warfarin?:  Call your doctor for advice.:  You must not take more Warfarin to make up for the dose you missed.:  Too much or too little Warfarin can injure you.:    Only your doctor can change how much of the drug you take.: </item>
+        <item>What bad side effect can Warfarin have?:  Warfarin makes you more prone to bleed.:  You can bleed in any part of your body.:  Bleeding inside your head and the gut can injure you the most.:  You should tell your doctor about all signs of bleeding and bruising.:  You should also tell your doctor if you fall or get hurt in some way.:</item>
+        <item>What is a sign of bleeding?:  An unusual headache can be a sign of bleeding in the head.:  A headache worse than usual can also be a sign of such bleeding.:  Your gums in the mouth can bleed.:  You can have blood in your urine.:   Bloody or dark stool is also a sign of bleeding.:  Bruising under the skin is a sign of bleeding.:  You can have blood come from your nose.:  And you can have blood in your vomit.:</item>
+        <item>When to call an emergency number for help?:  You should call 9 1 1 or your doctor immediately, if you have:
+Severe or unusual headache.:
+Confusion, weakness, or numbness.:
+Coughing up large amounts of bright red blood.:
+Vomiting blood.:
+Bleeding that will not stop.:
+Bright red blood in stool.:
+Fall, or injury to the head.:</item>
+        <item>How can you decrease your risk of bleeding?:  Take care when using sharp objects, such as knives and scissors.:
+Use a soft-bristle toothbrush.:
+Floss with waxed floss rather than unwaxed floss.:
+Shave with an electric razor rather than a blade.:
+Avoid actions that have a risk of falling or injury (e.g., contact sports).:</item>
+        <item>For women: What to do if you become pregnant?:  You need to tell your doctor right away, if you become pregnant.:
+It\'s not good to take Warfarin, when you are pregnant.: </item>
+        <item>Whom to tell that you take Warfarin?:  Tell your dentist.:  Tell your surgeon.:  Tell any one who does a medical procedure on you.:</item>
+        <item>Do you need to tell your doctor, before you go away on vacation?:  You need to tell your doctor, before you go away for any reason.:  Your doctor can advise you how to do it safely.:  You need to carry your Warfarin tablets on you, when you travel.:  Don\'t put them into luggage that can be lost or delayed.:</item>
+        <item>Do you need to tell your doctor about any vitamins or herbs you take?:  Yes, you need to tell your doctor about any other drugs, vitamins or herbs you take.:  They can stop Warfarin from doing its job.:  Vitamin K is the one to watch for.:  It can be a part of your multi-vitamin tablet.:  It can stop Warfarin from doing its job.:  Other drugs and herbs can make Warfarin stronger or weaker.:  Both are bad.  It can lead to harmful bleeding or too much clotting.:  One example is Advil.:  It makes Warfarin stronger.:</item>
+        <item>Can alcohol make you bleed too much?:  Yes, drinking alcohol can make you bleed too much.:  Alcohol can make you bleed more, even when your INR result stays normal.:  It gets in the way of some blood cells that help clots stop bleeding.:  This is risky for you.:  Because your lab result doesn\'t tell your doctor that anything is wrong.:  Ask your doctor how much alcohol is safe for you to drink.:</item>
+        <item>What foods can get in the way of Warfarin?:  Green salad can get in the way of Warfarin.:  Some oils and many green and leafy vegetables have a lot of vitamin K.:  You need some vitamin K.:  But too much vitamin K can stop Warfarin from doing its job.:  Ask your doctor for advice, before you change your diet.:</item>
+        <item>Is it okay to eat Grapefruit?:  No.:  Grapefruit can get in the way of Warfarin.:  It can stop your body from digesting Warfarin.:  It can make you have too much Warfarin in your blood.:  Don\'t eat a lot of grapefruit or drink its juice.:</item>
+        <item>How can wearing a medical alert tag help you?:  If you are too ill to speak, then your alert tag can tell people about your health.:  Your alert tag should have a list of your illnesses.:  It should have a list of the drugs you take.:   And it should have an emergency number to phone.:</item>
+    </string-array>
+
+</resources>
