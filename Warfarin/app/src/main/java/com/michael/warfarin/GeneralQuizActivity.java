@@ -85,21 +85,16 @@ public class GeneralQuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_general_quiz);
-        getSupportActionBar().hide();
 
         correctAnswer = new int[] {1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 1};
-
 
         questions1 = new ArrayList<String>(Arrays.asList(getResources().getStringArray(R.array.questions1)));
         questions2 = new ArrayList<String>(Arrays.asList(getResources().getStringArray(R.array.questions2)));
         answers = new ArrayList<String>(Arrays.asList(getResources().getStringArray(R.array.answers)));
         answers_speech = new ArrayList<String>(Arrays.asList(getResources().getStringArray(R.array.answers_speech)));
 
-
-
         radioGroup = (RadioGroup) findViewById(R.id.answer_group);
         radioButton1 = (RadioButton) findViewById(R.id.radioButton1);
-
 
         radioButton2 = (RadioButton) findViewById(R.id.radioButton2);
 
@@ -110,12 +105,7 @@ public class GeneralQuizActivity extends AppCompatActivity {
         showButton = (Button) findViewById(R.id.showButton);
         showButton.setOnClickListener(ShowButtonHandler);
 
-        gifView = (GIFView) findViewById(R.id.gifView);
-
         assets = this.getAssets();
-
-
-
 
         answerButton=(Button)findViewById(R.id.answerButton);
         nextQuestionButton = (Button) findViewById(R.id.nextQuestionButton);
@@ -123,14 +113,11 @@ public class GeneralQuizActivity extends AppCompatActivity {
         homeImageButton = (ImageButton) findViewById(R.id.homeImageButton);
         homeImageButton.setOnClickListener(HomeImageButtonHandler);
 
-       speechButton = (ImageButton) findViewById(R.id.speechButton);
+        speechButton = (ImageButton) findViewById(R.id.speechButton);
         speechButton.setOnClickListener(SpeechButtonHandler);
         speechButton.setBackgroundResource(R.drawable.talk);
 
-
         imageView = (ImageView) findViewById(R.id.imageView);
-
-
 
         t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
@@ -143,10 +130,8 @@ public class GeneralQuizActivity extends AppCompatActivity {
             }
         });
 
-
         answerButton.setOnClickListener(AnswerButtonHandler);
         nextQuestionButton.setOnClickListener(NextQuestionButtonHandler);
-
 
         if(savedInstanceState == null) {
             textOutput.setText(questions1.get(0));
@@ -217,10 +202,7 @@ public class GeneralQuizActivity extends AppCompatActivity {
                     }
                 }
             }, 500);
-
-
         }
-
     }
 
 
@@ -272,38 +254,36 @@ public class GeneralQuizActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
 
-            if(!answerButtonClicked) {
-                if (!radioGroup.isActivated()) {
-                   showCorrectAnswer(countAnswer);
-                } else {
-                    radioButton1.setSelected(true);
-                }
-
-
-                answerText.setText(answers.get(countAnswer));
-
-                scrollView.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        scrollView.fullScroll(View.FOCUS_DOWN);
-                    }
-                });
-
-
-                speakString = answers_speech.get(countSpeechAnswer);
-
-                countAnswer++;
-                countSpeechAnswer++;
-
-                if(isSpeak) {
-                    try {
-                        AppFunctions.speakSpeech(t1, speakString);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-                answerButtonClicked = true;
+        if(!answerButtonClicked) {
+            if (!radioGroup.isActivated()) {
+               showCorrectAnswer(countAnswer);
+            } else {
+                radioButton1.setSelected(true);
             }
+
+            answerText.setText(answers.get(countAnswer));
+
+            scrollView.post(new Runnable() {
+                @Override
+                public void run() {
+                    scrollView.fullScroll(View.FOCUS_DOWN);
+                }
+            });
+
+            speakString = answers_speech.get(countSpeechAnswer);
+
+            countAnswer++;
+            countSpeechAnswer++;
+
+            if(isSpeak) {
+                try {
+                    AppFunctions.speakSpeech(t1, speakString);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            answerButtonClicked = true;
+        }
         }
     };
 
@@ -331,15 +311,12 @@ public class GeneralQuizActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
-
-
                 radioGroup.clearCheck();
                 answerText.setText("");
                 radioButton1.setBackgroundColor(Color.TRANSPARENT);
                 radioButton2.setBackgroundColor(Color.TRANSPARENT);
                 radioButton1.setPaintFlags(0);
                 radioButton2.setPaintFlags(0);
-
 
                 textOutput.setText(questions1.get(countQuestion1));
                 radioButton1.setText(questions2.get(countQuestion2));
@@ -377,8 +354,7 @@ public class GeneralQuizActivity extends AppCompatActivity {
                 }catch(IOException e){
                     e.printStackTrace();
                 }
-                Log.i("Swithchover", "done");
-                //answerButton.performClick();
+                //Log.i("Swithchover", "done");
             }
         }
     };
@@ -398,7 +374,6 @@ public class GeneralQuizActivity extends AppCompatActivity {
             initiatePopupWindow();
             popupShowing = true;
             scrollView.setAlpha((float)0.2);
-
 
             final Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -470,10 +445,7 @@ public class GeneralQuizActivity extends AppCompatActivity {
 
             pw = new PopupWindow(layout, RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT, true);
 
-
             pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
-
-
 
             pw.getContentView().setOnClickListener(CancelPopupElementHandler);
         } catch (Exception e) {

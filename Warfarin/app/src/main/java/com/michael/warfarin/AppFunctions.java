@@ -23,7 +23,7 @@ public class AppFunctions {
         for (int i = 0; i < splitspeech.length; i++) {
             //textOutput.append("\n" + splitspeech[i].toString().trim());
 
-            t1.speak(splitspeech[i].toString().trim(), TextToSpeech.QUEUE_ADD, myHash);
+            t1.speak(splitspeech[i].trim(), TextToSpeech.QUEUE_ADD, myHash);
             if (i == 0) {
                 t1.playSilence(600, TextToSpeech.QUEUE_ADD, null);
             } else {

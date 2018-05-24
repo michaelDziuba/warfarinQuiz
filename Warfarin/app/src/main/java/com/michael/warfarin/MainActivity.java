@@ -32,14 +32,10 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
 
         button1 = (Button) findViewById(R.id.button1);
         button1.setOnClickListener(Button1Handler);
 
-
-        exitImageButton = (ImageButton) findViewById(R.id.exitImageButton);
-        exitImageButton.setOnClickListener(ExitImageButtonHandler);
 
         speechButton1 = (ImageButton) findViewById(R.id.speechButton1);
         speechButton1.setBackgroundResource(R.drawable.no_talk);
@@ -54,12 +50,9 @@ public class MainActivity extends AppCompatActivity {
                     t1.setLanguage(Locale.ENGLISH);
                     t1.setSpeechRate((float) 0.75);
                     t1.setPitch((float) 1.2);
-
                 }
             }
         });
-
-
 
         scrollView = (ScrollView) findViewById(R.id.scrollView);
 
@@ -69,11 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 scrollView.fullScroll(View.FOCUS_DOWN);
             }
         });
-
     }
-
-
-
 
 
     View.OnClickListener Button1Handler = new View.OnClickListener() {
@@ -84,12 +73,6 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    View.OnClickListener ExitImageButtonHandler = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            finishAffinity();
-        }
-    };
 
     View.OnClickListener SpeechButtonHandler = new View.OnClickListener() {
         @Override
